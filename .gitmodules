@@ -1,0 +1,9 @@
+[submodule "bundles/ruby-tmbundle"]
+	path = bundles/ruby-tmbundle
+	url = https://github.com/textmate/ruby.tmbundle.git
+[submodule "bundles/html-tmbundle"]
+	path = bundles/html-tmbundle
+	url = https://github.com/textmate/html.tmbundle.git
+[submodule "bundles/rails-tmbundle"]
+	path = bundles/rails-tmbundle
+	url = https://github.com/textmate/ruby-on-rails-tmbundle.git
