@@ -7,3 +7,6 @@
 [submodule "bundles/rails-tmbundle"]
 	path = bundles/rails-tmbundle
 	url = https://github.com/textmate/ruby-on-rails-tmbundle.git
+[submodule "bundles/objc-tmbundle"]
+	path = bundles/objc-tmbundle
+	url = git@github.com:textmate/objective-c.tmbundle.git
