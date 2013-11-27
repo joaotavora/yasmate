@@ -1,7 +1,8 @@
 yasmate
 =======
 
-A ruby tool to convert textmate snippet bundles to yasnippet format.
+A ruby tool to convert textmate snippet bundles to
+[yasnippet](http://github.com/capitaomorte/yasnippet) format.
 
 Currently (very) limited to rails-related snippets:
 
