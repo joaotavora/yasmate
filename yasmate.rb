@@ -1,16 +1,16 @@
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
-# textmate_import.rb --- import textmate snippets
+# yasmate.rb --- import textmate snippets
 #
-# Copyright (C) 2009 Rob Christie, 2010 João Távora
+# Copyright (C) 2009 Rob Christie, 2012 João Távora
 #
 # This is a quick script to generate YASnippets from TextMate Snippets.
 #
-# I based the script off of a python script of a similar nature by
-# Jeff Wheeler: http://nokrev.com
+# Rob Christie originally reported: I based the script off of a python
+# script of a similar nature by Jeff Wheeler: http://nokrev.com
 # http://code.nokrev.com/?p=snippet-copier.git;a=blob_plain;f=snippet_copier.py
 #
-# Use textmate_import.rb --help to get usage information.
+# Use yasmate.rb --help to get usage information.
 
 require 'rubygems'
 require 'plist'
