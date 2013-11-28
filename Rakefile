@@ -9,3 +9,11 @@ task :convert_bundles do
           sh "./yasmate.rb -d #{bundle_dir} -o #{output} -q"
         end
     end
+
+task :clean do
+      Dir.glob("snippets/*/.*").select do |file|
+                                 [".yasmate-unknown-substitutions.el",".yasmate-menu.el"].include?(File.basename(file))
+                               end.each do |file|
+                                    File.delete file
+                                  end
+    end
