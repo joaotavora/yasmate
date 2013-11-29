@@ -53,7 +53,7 @@
 ;; 88BC3896-DC39-4307-A271-21D33340F15A                                              =yyas> 'force-in-comment
 ;; 0F940CBC-2173-49FF-B6FD-98A62863F8F2                                              =yyas> 'force-in-comment
 ;; 451A0596-1F72-4AFB-AF2F-45900FABB0F7                                              =yyas> (not (yas-ruby-end-is-block-end-p))
-;; (string.quoted.double.ruby|string.interpolated.ruby) - string source              =yyas> (and (yas-ruby-in-interpolated-string-p) 'force-in-comment)
+;; B:(string.quoted.double.ruby|string.interpolated.ruby) - string source            =yyas> (and (yas-ruby-in-interpolated-string-p) 'force-in-comment)
 ;; text.html.ruby, text.html source.ruby                                             =yyas> (yas-unimplemented)
 ;; text.html, source.yaml, meta.erb                                                  =yyas> (yas-unimplemented)
 ;; keyword.control.start-block.ruby, meta.syntax.ruby.start-block                    =yyas>
