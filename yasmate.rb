@@ -259,7 +259,7 @@ class TmSnippet
     doc << (self.type || "")
     doc << "# uuid: #{self.uuid}\n"
     doc << "# key: #{self.key}\n" if self.key
-    doc << "# contributor: Translated from textmate snippet by PROGRAM_NAME\n"
+    doc << "# contributor: Translated from textmate snippet by #{File.basename($PROGRAM_NAME)}\n"
     doc << "# name: #{self.name}\n"
     doc << (self.binding || "")
     doc << (self.condition || "")
